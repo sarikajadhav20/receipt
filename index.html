@@ -1,57 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Receipt</title>
     <style>
-        body{
-            background-color:rgb(219, 204, 189);
+        body {
+            background-color: rgb(219, 204, 189);
         }
-        .receipt-container{
-            width:80%;
-            border:1px solid grey;
-            border-radius:5px;
-            background-color:white;
-            margin:0 auto;
-            padding:10px;
-            box-shadow:0 0 10px rgba(0,0,0,0.2);
-            border-bottom:1px dashed black;
+
+        .receipt-container {
+            width: 80%;
+            border: 1px solid grey;
+            border-radius: 5px;
+            background-color: white;
+            margin: 0 auto;
+            padding: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            border-bottom: 1px dashed black;
         }
-        .logo{
-            width:100px;
-            display:block;
-            margin:0 auto;
+
+        .logo {
+            width: 100px;
+            display: block;
+            margin: 0 auto;
         }
-        .title{
+
+        .title {
+            text-align: center;
+        }
+
+        .address {
+            text-align: right;
+        }
+
+        .mobile {
+            text-align: right;
+        }
+        .receipt-title{
             text-align:center;
-        }
-        .address{
-            text-align:right;
-        }
-        .mobile{
-            text-align:right;
+            font-size:30px;
+            margin:40px 0;
         }
     </style>
 </head>
+
 <body>
     <div class="receipt-container">
         <div class="receipt-header">
             <img src="./images/logo.png" alt="logo.png" class="logo">
             <h2 class="title">Women's College of Home Science and BCA</h2>
             <p class="address">
-                Datta Nagar<br/>
-                 Loni,Tal-Rahata,<br>
-                 Maharashtra 413713
+                Datta Nagar<br />
+                Loni,Tal-Rahata,<br>
+                Maharashtra 413713
             </p>
             <p class="mobile">+91-8274878752</p>
         </div>
         <div class="receipt-body">
-
+            <h3 class="receipt-title">Payment Receipt</h3>
         </div>
         <div class="receipt-footer">
 
         </div>
     </div>
 </body>
+
 </html>
